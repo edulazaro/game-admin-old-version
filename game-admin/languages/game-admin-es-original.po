@@ -1,0 +1,446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: game_admin_v1.0\n"
+"POT-Creation-Date: 2016-03-03 02:52+0100\n"
+"PO-Revision-Date: 2016-03-03 02:53+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ajax/gamesObtenerListaDeJuegos.php:56 game-admin.php:357
+msgid "None: do not associate a game"
+msgstr "Ninguno: no asociar a ningún juego"
+
+#: ajax/obtenerDatosDeJuego.php:21 game-admin.php:390
+msgid "Dependence"
+msgstr "Dependencia"
+
+#: ajax/obtenerDatosDeJuego.php:23 game-admin.php:392
+msgid "None / Base / Single"
+msgstr "Ninguno / Base / Único"
+
+#: ajax/obtenerDatosDeJuego.php:37 game-admin.php:405
+msgid "Platform for this content"
+msgstr "Plataforma para este contenido"
+
+#: ajax/obtenerDatosDeJuego.php:39 game-admin.php:407
+msgid "Multi: All"
+msgstr "Multi: todas"
+
+#: ajax/obtenerDatosDeJuego.php:40 game-admin.php:408
+msgid "Multi: Select"
+msgstr "Multi: seleccionar"
+
+#: ajax/obtenerDatosDeJuego.php:41 game-admin.php:409
+msgid "None"
+msgstr "Ninguna"
+
+#: ajax/obtenerDatosDeJuego.php:47 game-admin.php:414
+msgid "Unique: "
+msgstr "Única:"
+
+#: ajax/obtenerDatosDeJuego.php:58 game-admin.php:423
+msgid "Select platforms"
+msgstr "Seleccionar plataformas"
+
+#: ajax/obtenerDatosDeJuego.php:86
+#: ajax/obtenerOrdenesDependenciaDisponibles.php:19 game-admin.php:453
+#: tipos.php:113 tipos.php:216
+msgid "Order"
+msgstr "Orden"
+
+#: ajax/obtenerDatosDeJuego.php:120 game-admin.php:486 tipos.php:239
+msgid "Rating"
+msgstr "Puntuación"
+
+#: ajax/obtenerListaDeJuegos.php:54 game-admin.php:499
+msgid "None: no not associate to any game"
+msgstr "Ninguno: no asociar a ningún juego"
+
+#: game-admin.php:277
+msgid "Filter platform"
+msgstr "Filtrar plataforma"
+
+#: game-admin.php:279 game-admin.php:293 games.php:330 games.php:343
+#: games.php:419 games.php:494 games.php:508 games.php:662 games.php:675
+msgid "Any"
+msgstr "Cualquiera"
+
+#: game-admin.php:291
+msgid "Filter by letter"
+msgstr "Filtrar por letra"
+
+#: game-admin.php:354 game-admin.php:497
+msgid "Select game"
+msgstr "Seleccionar juego"
+
+#: game-admin.php:363 game-admin.php:506
+msgid "Select type"
+msgstr "Seleccionar tipo"
+
+#: game-admin.php:376 game-admin.php:519
+msgid "Is it the main content of the game? (One per game)"
+msgstr "Es éste el contenido principal del juego? (Uno por juego)"
+
+#: game-admin.php:378 game-admin.php:521 games.php:323 games.php:399
+#: games.php:655 tipos.php:145 tipos.php:248
+msgid "No"
+msgstr "No"
+
+#: game-admin.php:379 game-admin.php:522 games.php:324 games.php:400
+#: games.php:656 tipos.php:146 tipos.php:249
+msgid "Yes"
+msgstr "Sí"
+
+#: game-admin.php:383 game-admin.php:526
+msgid "Text link"
+msgstr "Texto del enlace"
+
+#: games.php:90
+msgid "Accept"
+msgstr "Aceptar"
+
+#: games.php:186
+msgid "Game inserted correctly."
+msgstr "Juego insertado correctamente."
+
+#: games.php:190 plataformas.php:26 tipos.php:42
+msgid "Error:"
+msgstr "Error:"
+
+#: games.php:190
+msgid "You must fill in the name of the game before adding it."
+msgstr "Debes introducir el nombre del juego antes de añadirlo."
+
+#: games.php:222
+msgid "Game edited correctly."
+msgstr "Juego editado correctamente."
+
+#: games.php:258
+msgid "Edit game"
+msgstr "Editar juego"
+
+#: games.php:265
+msgid "Name of the game"
+msgstr "Nombre del juego"
+
+#: games.php:275 games.php:618
+msgid "Image"
+msgstr "Imagen"
+
+#: games.php:290 games.php:624
+msgid ""
+"Note: If no image is selected, when one is requested by a GameAdmin Widget, "
+"it will be used the first featured image of the first review or content "
+"found for this game."
+msgstr ""
+"Nota: Si no se selecciona ninguna imagen, cuando una imagen sea requerida "
+"por un Widget de GameAdmin, se utilizará la imagen destacada del primer "
+"análisis o contenido que se encuentre para el juego."
+
+#: games.php:295 games.php:629 plataformas.php:63
+msgid "Platforms"
+msgstr "Plataformas"
+
+#: games.php:321 games.php:397 games.php:653
+msgid "Is this game an expansion / DLC?"
+msgstr "Es este juego una expansión / DLC ?"
+
+#: games.php:328 games.php:404 games.php:660
+msgid "Search original game by platform"
+msgstr "Buscar juego original por plataforma"
+
+#: games.php:341 games.php:417
+msgid "Search main game by letter"
+msgstr "Buscar juego original por letra"
+
+#: games.php:377 games.php:453 games.php:709
+msgid "Select original game"
+msgstr "Seleccionar juego original"
+
+#: games.php:379 games.php:711
+msgid "None: Do not associate with any game"
+msgstr "Nota: No asociar con ningún juego"
+
+#: games.php:467 tipos.php:153
+msgid "Update"
+msgstr "Actualizar"
+
+#: games.php:468 tipos.php:154
+msgid "Delete"
+msgstr "Eliminar"
+
+#: games.php:485
+msgid "Game list"
+msgstr "Lista de juegos"
+
+#: games.php:492
+msgid "Platform"
+msgstr "Plataforma"
+
+#: games.php:506
+msgid "Letter"
+msgstr "Letra"
+
+#: games.php:541
+msgid "Show"
+msgstr "Mostrar"
+
+#: games.php:601
+msgid "Add new game"
+msgstr "Añadir juego nuevo"
+
+#: games.php:608
+msgid "Game name"
+msgstr "Nombre del juego"
+
+#: games.php:612
+msgid "Release year"
+msgstr "Año de publicación"
+
+#: games.php:673
+msgid "Search original game by letter"
+msgstr "Buscar juego original por letra"
+
+#: games.php:717 plataformas.php:117
+msgid "Add"
+msgstr "Añadir"
+
+#: opciones.php:29
+msgid "Options saved."
+msgstr "Opciones guardadas."
+
+#: opciones.php:59
+msgid "GameAdmin Plugin Options"
+msgstr "Opciones del Plugin de GameAdmin"
+
+#: opciones.php:66
+msgid "Settings of the Game Content widget "
+msgstr "Configuración del Widget Game Content"
+
+#: opciones.php:71
+msgid "Color scheme"
+msgstr "Esquema de color"
+
+#: opciones.php:75
+msgid "Select scheme"
+msgstr "Seleccionar esquema"
+
+#: opciones.php:77
+msgid "Dark"
+msgstr "Oscuro"
+
+#: opciones.php:78
+msgid "Bright"
+msgstr "Claro"
+
+#: opciones.php:79 opciones.php:86 opciones.php:155
+msgid "Customize colors"
+msgstr "Personalizar colores"
+
+#: opciones.php:80
+msgid "None (current WordPress theme)"
+msgstr "Ninguno (tema de WordPress actual)"
+
+#: opciones.php:90
+msgid "Background color"
+msgstr "Color de fondo"
+
+#: opciones.php:94
+msgid "Header background"
+msgstr "Color de la cabecera"
+
+#: opciones.php:98
+msgid "Background header (2)"
+msgstr "Color de la cabecera (2)"
+
+#: opciones.php:104
+msgid "Text color"
+msgstr "Color de texto"
+
+#: opciones.php:108
+msgid "Text color (2)"
+msgstr "Color de texto (2)"
+
+#: opciones.php:112
+msgid "Header text color"
+msgstr "Color del texto de la cabecera"
+
+#: opciones.php:116
+msgid "Text color (rating)"
+msgstr "Color del texto (puntuación)"
+
+#: opciones.php:120
+msgid "Link color"
+msgstr "Color de enlace"
+
+#: opciones.php:124
+msgid "Link color (hover)"
+msgstr "Color de enlace (activo)"
+
+#: opciones.php:137
+msgid "Review configuration"
+msgstr "Configuración de los análisis"
+
+#: opciones.php:142
+msgid "Review box (after content) configuration"
+msgstr "Configuración de los datos de análisis (después del contenido)"
+
+#: opciones.php:146
+msgid "Include tab with details and rating after post"
+msgstr "Incluír sección condatos del análisis después del post"
+
+#: opciones.php:148 opciones.php:164
+msgid "Enable"
+msgstr "Activar"
+
+#: opciones.php:149 opciones.php:165
+msgid "Disable"
+msgstr "Desactivar"
+
+#: opciones.php:158
+msgid "Search engines"
+msgstr "Buscadores"
+
+#: opciones.php:162
+msgid "Schema.org structured data"
+msgstr "Datos estructurados de Schema.org"
+
+#: opciones.php:179 plataformas.php:87
+msgid "Save"
+msgstr "Guardar"
+
+#: plataformas.php:22
+msgid "Platform inserted correctly."
+msgstr "Plataforma insertada correctamente"
+
+#: plataformas.php:26
+msgid "You must fill all the data of the new platform."
+msgstr "Debes rellenar todos los datos de la nueva plataforma."
+
+#: plataformas.php:49 tipos.php:65
+msgid "Data stored correctly."
+msgstr "Datos guardados correctamente."
+
+#: plataformas.php:67
+msgid "List of platforms"
+msgstr "Lista de plataformas"
+
+#: plataformas.php:92
+msgid "* To delete platforms, leave blank names and save."
+msgstr "* Para borrar plataformas, deja los nombres en blanco y guarda."
+
+#: plataformas.php:106
+msgid "Add new platform"
+msgstr "Agregar nueva plataforma"
+
+#: plataformas.php:113
+msgid "Platform name"
+msgstr "Nombre de la plataforma"
+
+#: tipos.php:38
+msgid "Content type added correctly."
+msgstr "Tipo de contenido agregado correctamente."
+
+#: tipos.php:42
+msgid "Please complete all required fields of the new content type."
+msgstr ""
+"Por favor, introduce todos los campos requeridos para el nuevo tipo de "
+"contenido."
+
+#: tipos.php:74
+msgid "Content type successfully removed. The publications have been updated."
+msgstr ""
+"Tipo de contenido eliminado correctamente.  La publicación ha sido "
+"actualizada."
+
+#: tipos.php:86
+msgid "Content Types"
+msgstr "Tipos de contenido."
+
+#: tipos.php:101
+msgid "Edit content type"
+msgstr "Editar tipo de contenido"
+
+#: tipos.php:109 tipos.php:212
+msgid "Name"
+msgstr "Nombre"
+
+#: tipos.php:129
+msgid "Assign platforms"
+msgstr "Asignar plataformas"
+
+#: tipos.php:131
+msgid "Assign platform selection to this content type"
+msgstr "Incluír selección de plataforma en este tipo de contenido"
+
+#: tipos.php:132
+msgid "Do not assign platform selection to this content type"
+msgstr "No asignar selección de plataforma a este tipo de contenido"
+
+#: tipos.php:138 tipos.php:241
+msgid "Not available"
+msgstr "No disponible"
+
+#: tipos.php:139 tipos.php:242
+msgid "Available"
+msgstr "Disponible"
+
+#: tipos.php:174
+msgid "List of content types (click to edit)"
+msgstr "Lista de tipos de contenido (clic para editar)"
+
+#: tipos.php:205
+msgid "Add new content type"
+msgstr "Añadir nuevo tipo de contenido"
+
+#: tipos.php:232
+msgid "Associated platforms"
+msgstr "Plataformas asociadas"
+
+#: tipos.php:234
+msgid "Associate platforms to contents of this type"
+msgstr "Asociar plataformas a contenidos de este tipo"
+
+#: tipos.php:235
+msgid "Do not associate platforms to contents of this type"
+msgstr "No asociar plataformas a contenidos de este tipo"
+
+#: tipos.php:246
+msgid "Header color based according to rating"
+msgstr "Color de cabecera en función de la puntuación"
+
+#: tipos.php:253
+msgid "Submit"
+msgstr "Aceptar"
+
+#: widget/gamecontent.php:6
+msgid "List of Game Admin contents"
+msgstr "Listado de contenidos de GameAdmin"
+
+#: widget/gamecontent.php:8
+msgid "GA GameContent Widget"
+msgstr "GA GameContent Widget"
+
+#: widget/gamecontent.php:131
+msgid "Publicado en "
+msgstr "Released on"
+
+#: widget/gamecontent.php:244
+msgid "New title"
+msgstr "Nuevo título"
+
+#: widget/gamecontent.php:249
+msgid "Title:"
+msgstr "Título:"
+
+#~ msgid "No disponible"
+#~ msgstr "No disponible"
